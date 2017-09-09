@@ -17,7 +17,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(14, GPIO.IN)
 GPIO.setup(17, GPIO.IN)
 
-# Import the email modules we'll need
+
 from email.mime.text import MIMEText
 while True:
     humidity,temperature=Adafruit_DHT.read_retry(11,4)
